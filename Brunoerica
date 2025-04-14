@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 15 Beleza & Estética</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffe0f0, #fff0f5);
+      color: #333;
+    }
+    header {
+      background: #e91e63;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .produto {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .produto:hover {
+      transform: translateY(-5px);
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .produto h2 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .produto a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #e91e63;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Top 15 Produtos de Beleza</h1>
+    <p>Aproveite os mais vendidos do Brasil!</p>
+  </header>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/61SnZ8Keh-L._AC_SX679_.jpg" alt="Base Ruby Rose">
+      <h2>Base Líquida Matte Ruby Rose</h2>
+      <a href="https://www.amazon.com.br/dp/B07SPF6R4F">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/51aFJGjvVYL._AC_SX679_.jpg" alt="Máscara Big Bang Dailus">
+      <h2>Máscara Big Bang Volume Dailus</h2>
+      <a href="https://www.amazon.com.br/dp/B08THZMPVF">Comprar</a>
+    </div>
+    <!-- Repita os blocos acima para os outros produtos -->
+    <!-- Simplesmente duplique, mude imagem, nome e link -->
+  </div>
+</body>
+</html>
